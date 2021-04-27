@@ -127,3 +127,44 @@
   width: 100%;
   height: 100%;
 }
+
+/* seccion manciones */
+.menciones {
+  min-height: 400px;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: center;
+}
+.menciones__contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.menciones__titulo {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.card-menciones {
+  width: 23%;
+  min-width: 240px;
+  min-height: 190px;
+  box-shadow: -1px 2px 12px 2px #00000029;
+}
+.card-menciones__img {
+  width: 100%;
+  height: 100%;
+}
+.espacio {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-menciones__parrafo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
